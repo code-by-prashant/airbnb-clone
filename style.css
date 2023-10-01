@@ -12,7 +12,10 @@
         cursor: pointer;
     }
 
-    .nav-center {
+    .nav-center{
+        display: none;
+    }
+    .nav-center-screen {
         display: flex;
         gap: 20px;
         align-items: center;
@@ -27,7 +30,7 @@
         width: 300px;
     }
 
-    .nav-center:hover {
+    .nav-center-screen:hover {
         box-shadow: 2px 2px 5px rgba(140, 140, 140, 0.5);
     }
 
@@ -338,6 +341,10 @@ media query for screens with a max-width of 580px
 
     .hr-line {
         display: none;
+    }
+
+    .nav-center-screen{
+        display:none;
     }
 
     .nav-center {
