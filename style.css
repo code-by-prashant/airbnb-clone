@@ -346,6 +346,10 @@ media query for screens with a max-width of 580px
         display:none;
     }
 
+    .nav-center-screen{
+        display:none;
+    }
+
     .nav-center {
         display: flex;
         gap: 10px;
@@ -658,5 +662,4 @@ media query for screens with a max-width of 580px
         text-decoration: underline;
         cursor: pointer;
     }
-    
 }
