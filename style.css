@@ -34,6 +34,7 @@
         box-shadow: 2px 2px 5px rgba(140, 140, 140, 0.5);
     }
 
+
     .nav-center-p {
         color: grey;
     }
@@ -46,6 +47,7 @@
         color: white;
 
     }
+
 
     .nav-right {
         display: flex;
@@ -69,7 +71,9 @@
         transform: scale(1.6);
     }
 
+
     /* container and card for content */
+
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -330,7 +334,7 @@ media query for screens with a max-width of 580px
         font-family: 'Nunito Sans', sans-serif;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
         margin: 10px;
         margin-left: 16px;
     }
@@ -338,9 +342,8 @@ media query for screens with a max-width of 580px
     .nav-image {
         display: none;
     }
-
-    .hr-line {
-        display: none;
+    .hr-line{
+        display:none;
     }
 
     .nav-center-screen{
@@ -353,8 +356,8 @@ media query for screens with a max-width of 580px
         align-items: center;
         border: 1px solid lightgrey;
         box-shadow: 2px 2px 5px rgba(201, 201, 201, 0.5);
-        padding-left: 6px;
-        padding-right: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
         border-radius: 40px;
         font-size: 14px;
         cursor: pointer;
@@ -362,15 +365,37 @@ media query for screens with a max-width of 580px
         margin-top: 10px;
         width: max-content;
     }
-
+    .nav-center-inner{
+        display: column;
+        gap:0px;
+    }
+    .nav-center-inner p{
+        margin: 0px;
+        margin-right: 35px;
+        padding: 4px;
+        padding-bottom: 0px;
+        padding-top: 6px !important;
+    }
+    .nav-center-p{
+        font-size: 12px;
+        margin: 0px;
+        padding: 4px;
+        padding-top: 0px;
+        padding-bottom: 10px !important;
+    }
     .nav-search-icon {
         border: 1px solid none;
         border-radius: 50%;
         padding: 7px;
         background-color: #FF385C;
         color: white;
+        transform: scale(1.2);
+
     }
 
+    .nav-center-screen{
+        display: none;
+    }
     .nav-right-globe-icon,
     .nav-right-p {
         display: none;
@@ -386,7 +411,7 @@ media query for screens with a max-width of 580px
     }
 
     .nav-right-user-profile {
-        transform: scale(1.8);
+        transform: scale(2);
     }
 
     .nav-right-box {
@@ -401,14 +426,17 @@ media query for screens with a max-width of 580px
     }
 
 
+
     /* menu property below the navbar */
+
+
     .menu-container {
-        display: flex;
-        gap: 30px;
-        align-items: center;
-        margin: 20px 20px;
-        overflow-x: auto;
-        white-space: nowrap;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 20px 20px;
+    overflow-x: auto;
+    white-space: nowrap;
     }
 
     .menu-conatiner-image img {
@@ -426,7 +454,7 @@ media query for screens with a max-width of 580px
         font-family: 'Nunito Sans', sans-serif;
         font-size: 12px;
         flex: 0 0 auto;
-        margin: 5px;
+        margin: 5px; 
         padding: 5px;
     }
 
@@ -450,8 +478,10 @@ media query for screens with a max-width of 580px
 
 
     /* container and card for content */
+
     .container {
         display: column;
+        /* flex-wrap: wrap; */
     }
 
     .card {
@@ -518,6 +548,7 @@ media query for screens with a max-width of 580px
     }
 
     /* making heart icon relative */
+
     .card-header {
         position: relative;
     }
@@ -548,7 +579,6 @@ media query for screens with a max-width of 580px
         bottom: 30px;
         cursor: pointer;
     }
-
     .show-map-icon {
         width: 16px;
         margin-right: 5px;
@@ -566,6 +596,7 @@ media query for screens with a max-width of 580px
 
 
     /* footer css */
+
     .end-info {
         text-align: center;
         padding: 10px 22px;
@@ -631,5 +662,4 @@ media query for screens with a max-width of 580px
         text-decoration: underline;
         cursor: pointer;
     }
-
 }
