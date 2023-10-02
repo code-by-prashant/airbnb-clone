@@ -3,7 +3,7 @@
         font-family: 'Nunito Sans', sans-serif;
         display: flex;
         align-items: center;
-        gap: 180px;
+        justify-content: space-between;
         margin: 16px 30px;
     }
 
@@ -162,7 +162,7 @@
 
     .menu-container {
         display: flex;
-        gap: 30px;
+        justify-content: space-between;
         align-items: center;
         margin: 20px 30px;
 
@@ -334,7 +334,7 @@ media query for screens with a max-width of 580px
         font-family: 'Nunito Sans', sans-serif;
         display: flex;
         align-items: center;
-        gap: 30px;
+        justify-content: space-between;
         margin: 10px;
         margin-left: 16px;
     }
